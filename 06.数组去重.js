@@ -1,5 +1,5 @@
 // 用`Map`记录
-function quChong1(arr) {
+const quChong1 = (arr) => {
   const newArr = []
   arr.reduce((pre, next) => {
     if (!pre.has(next)) {
@@ -12,7 +12,7 @@ function quChong1(arr) {
 }
 
 // 用`Set`去重
-function quChong2(arr) {
+const quChong2 = (arr) => {
   return [ ...new Set(arr)]
 }
 

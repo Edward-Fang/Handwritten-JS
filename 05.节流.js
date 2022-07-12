@@ -1,6 +1,6 @@
-function throttle(fn, delay = 500) {
+const throttle = (fn, delay = 500) => {
   let flag = false
-  return function () {
+  return () => {
     if (flag) return
     flag = true
     const args = arguments

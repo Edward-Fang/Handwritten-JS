@@ -1,4 +1,4 @@
-function instanceOf(father, child) {
+const instanceOf = (father, child) => {
   const fp = father.prototype
   const cp = child.__proto__
 
