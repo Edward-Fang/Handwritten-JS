@@ -11,3 +11,14 @@
 // f1()
 // f1()
 // f2()
+
+// // var name = 'World!';
+// (function(){
+//   // var name
+//   if(typeof name === 'undefined'){
+//     name = 'Jack'
+//     console.log('Goodbye' + name);
+//   }else{
+//     console.log('hello' + name);
+//   }
+// })()
